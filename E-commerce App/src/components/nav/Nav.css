@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+  }
+  .nav {
+    background-color: rgb(14, 5, 0);
+    height: 70px;
+    color: white;
+    display: flex;
+  }
+  .leftPanel {
+    width: 40%;
+  }
+  .rightPanel {
+    width: 40%;
+    
+  }
+  .rightPanel a, .thirdpanel a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thirdpanel{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  .icon{
+    font-size: 24px;
+  }

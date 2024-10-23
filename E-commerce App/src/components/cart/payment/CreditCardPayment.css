@@ -1,0 +1,72 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stywo-1261728.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.payment-form {
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    margin-bottom: 20px;  
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .exp-date {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .exp-date select {
+    width: 48%;
+  }
+  
+  .form-group p {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-group.buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button[type="button"] {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  

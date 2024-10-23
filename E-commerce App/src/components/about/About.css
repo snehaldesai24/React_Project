@@ -1,0 +1,110 @@
+.about-us {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .library-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+  }
+  
+  .learn-more-btn, .register-btn {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-more-btn:hover, .register-btn:hover {
+    background-color: #357ABD;
+  }
+  
+  .header-image {
+    background-image: url('your-image-url.png'); /* Replace with the correct image path */
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .about-section {
+    background-image: url('https://st2.depositphotos.com/3591429/10778/i/450/depositphotos_107781882-stock-photo-panorama-city-and-buildings.jpg'); /* Replace with the correct background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    height: 250px;
+    text-align: center;
+    color: white; /* Adjust text color for better visibility */
+  }
+  
+  .about-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+   
+    display: inline-block;
+    color: #fff; /* Adjust this color if necessary */
+    border-radius: 8px; /* Optional: Rounded corners for the title background */
+  }
+  
+  .about-text {
+    font-size: 16px;
+    color: #ddd;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+  }
+  
+  .feature-title {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  
+  .feature-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
